@@ -20,7 +20,7 @@ def searchIndex(keyword = None):
         PROC.stdin.write("ActivateKeyword " + keyword + "\n")
     else:
         openAssistant()
-        time.sleep(1)
+        time.sleep(2)
         searchIndex(keyword)
 
 #searchIndex(vim.eval("expand('<cword>')"))
